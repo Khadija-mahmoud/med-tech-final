@@ -18,7 +18,7 @@ def create_app():
     app.config['SECRET_KEY'] = 'rainbow'
 
     # Database configuration
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Khadija2005*@localhost/medtech_db'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:rootpassword@localhost:3306/medtech_db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     # Email configuration
