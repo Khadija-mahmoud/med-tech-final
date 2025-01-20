@@ -43,21 +43,25 @@
                 <a href="/about">About Us</a>
                 <a href="/login">Login</a>
                 <a href="/register">Register</a>
+                <a href="/game">CPR Game</a>
             {% elif request.path == '/login' %}
                 <a href="/">Home</a>
                 <a href="/about">About Us</a>
                 <a href="/login">Login</a>
                 <a href="/register">Register</a>
+                <a href="/game">CPR Game</a>
             {% elif request.path == '/register' %}
                 <a href="/">Home</a>
                 <a href="/about">About Us</a>
                 <a href="/login">Login</a>
                 <a href="/register">Register</a>
+                <a href="/game">CPR Game</a>
             {% elif request.path == '/about' %}
                 <a href="/">Home</a>
                 <a href="/about">About Us</a>
                 <a href="/login">Login</a>
                 <a href="/register">Register</a>
+                <a href="/game">CPR Game</a>
             {% endif %}
         {% else %}
             {% if request.path.startswith('/dashboard') or request.path.startswith('/schedule') or request.path.startswith('/game') or request.path.startswith('/profile') or request.path.startswith('/contact') %}
